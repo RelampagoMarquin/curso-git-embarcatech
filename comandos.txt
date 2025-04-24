@@ -1,0 +1,24 @@
+# Inicializando o repositório:
+
+- git init
+
+# Configurando o user do Git
+- git config --global user.email "marcos_more@outlook.com"
+- git config --global user.name "Marcos Moreira"
+
+# Adicionando o arquivo e fazendo o commit
+- git status
+- git add .
+- git commit -m 'add arquivo com nome e matricula'
+
+# Vinculando a branch e fazendo o commit
+
+- git branch -M main
+- git remote add origin https://github.com/RelampagoMarquin/curso-git-embarcatech.git
+- git push -u origin main
+
+# Segundo arquivo:
+- git status
+- git add .
+- git commit -m 'lista de comandos'
+- git push
